@@ -49,11 +49,8 @@ body{
     text-decoration: none;
 }
 
-.li-navbar:hover{
-    background-color: white;
-    transition: .5s ease-in-out;
-    -o-transition-delay: .1s;
-    border-radius: 2px;
+.li-navbar a:hover{
+    border-bottom: 3px solid #FFFF;
 }
 
 .navbarr{
