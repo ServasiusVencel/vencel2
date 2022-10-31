@@ -19,7 +19,8 @@ body{
     width: 100%;
     
 }
-}
+}  
+
 .container{
     width: 1500px;
     height: 80px;
@@ -119,3 +120,12 @@ body{
     background: url(tampilan\ about.png);
     background-size: cover;
 }
+
+.link-contact h2{
+    color: rgb(152, 232, 41);
+}
+
+.link-contact a{
+    text-decoration: none;
+}
+
