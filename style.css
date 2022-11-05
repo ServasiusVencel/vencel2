@@ -6,7 +6,12 @@
 
 
 
-@media screen {
+@media screen and (max-width:360px) {
+    .a-navbar{
+        padding-top: 90px;
+    }
+    
+}
     
 
 body{
@@ -19,12 +24,13 @@ body{
     width: 100%;
     
 }
-}  
+
 
 .container{
     width: 1500px;
     height: 80px;
-
+    display: flex;
+    flex-wrap: nowrap;
 }
 .ul-navbar{
     display: flex;
