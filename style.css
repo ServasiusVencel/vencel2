@@ -27,11 +27,12 @@ body{
 
 
 .container{
-    width: 1500px;
+    width: 1500px; 
     height: 80px;
     display: flex;
     flex-wrap: nowrap;
 }
+
 .ul-navbar{
     display: flex;
     height: 80px;
@@ -80,6 +81,21 @@ body{
     justify-content: space-around;
     font-family: Arial,sans-serif;
     font-size: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typinganim 2s steps(30);
+
+}
+
+@keyframes typinganim {
+    from {
+        width: 0;
+    }
+
+    to {
+        width:27%;
+}
+
 }
 
 .a-contact{
@@ -134,4 +150,26 @@ body{
 .link-contact a{
     text-decoration: none;
 }
+
+.text h1{
+    color: limegreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typinganim 2s steps(30);
+
+}
+
+@keyframes typinganim {
+    from {
+        width: 0;
+    }
+
+    to {
+        width:27%;
+}
+}
+
+
+
 
