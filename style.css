@@ -170,6 +170,57 @@ body{
 }
 }
 
+@media screen and (max-width: 600px){
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 800px;
+    }
+
+    .container{
+        width: 1500px; 
+        height: 80px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    .ul-navbar{
+        display: flex;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .li-navbar{
+        list-style-type: none;
+        padding: 20px;
+        font-size: 25px;
+        float: right;
+        justify-content: right;
+        justify-items: right;
+    }
+    
+    .a-navbar{
+        width: 1550px;
+        height: 80px;
+    }
+    
+    .b-navbar{
+        color: red;
+        text-decoration: none;
+    }
+    
+    .li-navbar a:hover{
+        border-bottom: 3px solid #FFFF;
+    }
+    
+    .navbarr{
+        color: white;
+    }
+
+}
 
 
 
